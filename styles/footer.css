@@ -1,0 +1,72 @@
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: relative;
+    top: -75px;
+    height: 300px;
+    width: 100%;
+    background-color: lightskyblue;
+}
+
+.reach-us, .website, .open{
+    padding-top: 10px ;
+    
+    flex: 1;
+    height: 265px;
+}
+.reach-us-title, .website-title, .open-title{
+    color: white;
+    top: 16px;
+    height: 30px;
+    width: 100%;
+    font-size: 24px;
+    font-family: Lora,Arial;
+    text-align: center;
+    font-weight: bold;
+}
+
+.reach-us-text, .reach-us-address, .reach-us-phone, .reach-us-fax, .reach-us-email, .footer-link, .footer-day, .our-info{
+    color: white;
+    font-family: Lora,Arial;
+    line-height: 22px;
+    margin-top: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
+    max-width: 400px;
+    text-align: center;
+}
+
+.copyright{
+    color: white;
+    margin-left: 16px;
+    height: 26px;
+    font-size: 12px;
+
+    bottom: 0px;
+}
+
+.footer-links{
+
+}
+.footer-link{
+    color: white;
+   line-height: 40px;
+}
+
+white{
+    color: white;
+}
+
+white:hover{
+    color: rgb(5, 83, 179);
+}
+.footer-day{
+    line-height: 28px;
+}
+pharmacy{
+    font-size: 16px; 
+    color: rgb(0, 153, 0);
+}
+pharmacy:hover{
+    color: rgb(5, 83, 179);
+}
