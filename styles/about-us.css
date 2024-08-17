@@ -35,11 +35,13 @@
 
 }
 
-.main-text-container{
+.services-text-container{
     position: relative;
-    top: 80px;
-    height: 1000px;
-    background-color: rgb(255, 242, 242)
+    margin-top: 80px;
+    height: 600px;
+    background-color: rgb(255, 242, 242);
+    display: grid;
+    grid-template-columns: 3fr 7fr;
 }
 
 .office-image-container{
@@ -54,9 +56,9 @@
 }
 
 .welcome-title{
-    position: absolute;
-    left: 600px;
-    top: 150px;
+    margin-top: 200px;
+    position: relative;
+    width: 80%;
     font-family: Open Sans,Arial;
     font-size: 18px;
     font-weight: bold;
@@ -67,55 +69,40 @@
 }
 
 .heart-container{
-    position: absolute;
-    top: 150px;
-    width: 160px;
-    height: 240px;
-    left: 80px;
-    
+    max-width: 160px;
+    max-height: 240px;
     z-index: 3;
-    
+    box-shadow: 10px 10px 10px rgb(234, 222, 222);
 }
 .heart-container-shadow{
-    position: absolute;
-    top: 150px;
-    width: 160px;
-    height: 240px;
-    left: 80px;
+    position: relative;
+    width: 40%;
+    max-width: 240px;
+    height: 50%;
     box-shadow: 10px 10px rgb(234, 222, 222)
 }
 
 .mask-container{
-    position: absolute;
-    top: 250px;
-    width: 160px;
-    height: 240px;
-    left: 200px;
-    box-shadow: 10px 10px rgb(234, 222, 222);
+    max-width: 160px;
+    max-height: 240px;
+    box-shadow: 10px 10px 10px rgb(234, 222, 222);
     z-index: 2;
 }
 
 .we-are-text{
-    position: absolute;
-    left: 600px;
     top: 200px;
     font-family: Open Sans,Arial;
     font-size: 16px;
-    width: 500px
-
+    width: 80%;
 }
 
 .services-text-start, .services-text-lines{
-    position: absolute;
-    left: 600px;
-    top: 350px;
-    width: 500px;
+    width: 80%;
     font-family: Open Sans,Arial;
     font-size: 16px;
 }
 .services-text-lines{
-    position: absolute;
-    top: 380px;
+
 }
 
 li{
@@ -125,4 +112,58 @@ li{
 li::marker{
     font-size: 24px;
     color: yellow;
+}
+.our-values-title{
+    margin-top: 200px;
+    position: relative;
+    width: 80%;
+    font-family: Open Sans,Arial;
+    font-size: 18px;
+    font-weight: bold;
+    border: 0;
+    border-bottom: 2px;
+    border-style: solid;
+    border-color: lightskyblue;
+}
+
+.services-pictures{
+    max-width: 400px;
+    height: 600px;
+    position: relative;
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    margin: auto;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+
+.clinic-pictures{
+    top: 200px;
+    position: relative;
+    display: flex;
+    grid-template-columns: 1fr;
+    justify-content: right;
+    text-align: right;
+    flex-direction: column;
+}
+
+.picture-one, .picture-two{
+    width: 400px;
+    text-align: right;
+}
+.clinic-info-container{
+    height: 1000px;
+    width: 100%;
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.clinic-info-text{
+    
+}
+@media screen and (max-width: 900px) {
+    .services-text-container{
+        height: 800px;
+    }
 }

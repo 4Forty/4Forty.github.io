@@ -1,0 +1,113 @@
+body{
+    height: 1000px;
+}
+span{
+    background-color: rgb(14, 14, 43, 0.2);
+}
+bolden{
+    font-weight: bold;
+}
+.services-title-container{
+    height: 300px;
+    background-color: aqua;
+    position: relative;
+    max-height: 1000px;
+    margin-top: 80px;
+    margin-left: 0px;
+    right: 0px;
+    left: 0px;
+    display: flex;
+    width: 100%;
+    background-image: url(/images/services.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.services-title-container-color-overlay{
+    width: 100%;
+    max-width: 100%;
+    max-height: 1000px;
+    background-color: rgb(0, 89, 255);
+    opacity: 0.35;
+    z-index: 10;
+}
+
+.services-title-container-text-overlay{
+    text-align: center;
+    left: 0;
+    right: 0;
+    font-size: 50px;
+    top: 124px;
+    font-style: italic;
+    color: white;
+    position: absolute;
+    font-family: Raleway,Arial;
+    z-index: 10;
+    font-size: 48px;
+}
+
+.services-content-container{
+    position: relative;
+    width: 100%;
+    height: 900px;
+    background-color: rgb(232, 211, 252);
+}
+.services-content-title{
+    position: absolute;
+    top: 32px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 300;
+    font-family: Raleway,Arial;
+}
+.all-services{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    position: relative;
+    top: 100px;
+    width: 100%;
+    height: 400px;
+}
+.service{
+    height: 300px;
+    font-family: Raleway,Arial;
+}
+
+.service-icon-one{
+    position: relative;
+    width: 50px;
+    margin: auto;
+    margin-top: 16px;
+}
+.service-icon-two{
+    position: relative;
+    width: 30px;
+    height: 50px;
+    margin: auto;
+    margin-top: 16px;
+}
+.service-icon-three{
+    position: relative;
+    width: 40px;
+    height: 50px;
+    margin: auto;
+    margin-top: 16px;
+}
+.service-title{
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 200;
+    font-size: 24px;
+}
+.service-text{
+    max-width: 80%;
+}
+.call-us{
+    position: absolute;
+    bottom: 150px;
+    font-size: 24px;
+    margin-left: 24px;
+    font-family: Raleway,Arial;
+    font-weight: 300;
+}

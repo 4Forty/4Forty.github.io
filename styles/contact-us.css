@@ -24,7 +24,6 @@
 .forty-contact-information, .cmrx-contact-information{
     position: absolute;
     top: 250px;
-    left: 50px;
     height: 130px;
     width: 340px;
     background-color: lightskyblue;
@@ -32,8 +31,11 @@
     border-style: solid;
     border-radius: 10px;
 }
+.forty-contact-information{
+    left: 50px;
+}
 .cmrx-contact-information{
-    left: 800px;
+    right: 50px;
     background-color: rgb(177, 255, 177);
 }
 .phone-container, .fax-container, .email-container, .location-container{
@@ -95,13 +97,28 @@ body{
 .forty-clinic, .cmrx-pharmacy{
     position: absolute;
     top: 200px;
-    left: 50px;
     font-family: Lora,Arial;
     font-size: 28px;
     font-style: italic;
     font-weight: bold;
 }
-
+.forty-clinic{
+    left: 50px;
+}
 .cmrx-pharmacy{
-    left: 800px;
+    right: 180px;
+}
+
+@media screen and (max-width: 840px) {
+    .main-text-container{
+        height: 900px;
+    }
+    .cmrx-contact-information{
+        top: 500px;
+        left: 50px;
+    }
+    .cmrx-pharmacy{
+        top:450px;
+        left: 50px;
+    }
 }

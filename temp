@@ -1,0 +1,30 @@
+                <div class = "forty-container">
+
+                    <div class = "forty-title">
+                        4Forty Medical Clinic
+                    </div>
+    
+                    <div class = "forty-text">
+                        Our clinic is located in the Highwood region of Calgary. Give us a call in order to book an appointment or schedule a meet and greet with Dr Ndidi Metuh, a female family physician
+                    </div>
+    
+                </div>
+    
+                <div class = "pharmacy-container">
+    
+                    <div class = "pharmacy-title">
+                        CMRx4 Pharmacy      
+                    </div>
+    
+                    <div class = "pharmacy-text">
+                        Our clinic is accompanied by an in house pharmacy.
+                    </div>
+    
+                </div>
+
+
+                <div class = office-image-container>
+                    <div class = office-image-color-overlay>
+
+                    </div>
+                </div>
