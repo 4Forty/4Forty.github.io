@@ -1,5 +1,5 @@
 body{
-    height: 1850px;
+    height: 1650px;
 }
 
 .stock-doctor-title-overlay, .stock-doctor-text-overlay-body, .stock-doctor-sub-title-overlay, .book-text, .clinic-hours-text {
@@ -139,7 +139,7 @@ body{
     top: -75px;
     position: relative;
     width: 100%;
-    height: 650px;
+    height: 550px;
     background-color: rgb(255, 242, 242)
 }
 
@@ -231,6 +231,26 @@ body{
     z-index: 100;
 }
 
-@media (max-width: 500px){
-
+@media (max-width: 1200px){
+    .family-container{
+        top: 350px;
+    }
+    .walk-container{
+        right: 100px;
+    }
+    .addtional-section{
+        height: 600px;
+}
+@media (max-width: 850px){
+    .addtional-section{
+        height: 1000px;
+    }
+    .family-container{
+        top: 500px;
+        left: 50px;
+    }
+    .walk-container{
+        top: 750px;
+        left: 50px;
+    }
 }

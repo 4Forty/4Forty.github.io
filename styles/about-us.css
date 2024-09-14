@@ -115,6 +115,7 @@ li::marker{
 }
 .our-values-title{
     margin-top: 200px;
+    margin-left: 20px;
     position: relative;
     width: 80%;
     font-family: Open Sans,Arial;
@@ -124,6 +125,15 @@ li::marker{
     border-bottom: 2px;
     border-style: solid;
     border-color: lightskyblue;
+}
+.our-values-body{
+    position: relative;
+    left: 20px;
+    top: 40px;
+    width: 80%;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: Open Sans,Arial;
 }
 
 .services-pictures{
@@ -149,15 +159,15 @@ li::marker{
 }
 
 .picture-one, .picture-two{
-    width: 400px;
+    max-width: 380px;
     text-align: right;
 }
 .clinic-info-container{
-    height: 1000px;
+    height: 800px;
     width: 100%;
     background-color: aliceblue;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
 }
 .clinic-info-text{
     
@@ -166,4 +176,17 @@ li::marker{
     .services-text-container{
         height: 800px;
     }
+    .our-values-body{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .clinic-info-container{
+        height: 750px;
+    }
+}
+body {
+    width: 100%;
+    margin-left: 0;
+    background-color: white;
+    height: 100px;
 }

@@ -41,7 +41,7 @@
     margin-left: 16px;
     height: 26px;
     font-size: 12px;
-
+    position: absolute;
     bottom: 0px;
 }
 
@@ -69,4 +69,27 @@ pharmacy{
 }
 pharmacy:hover{
     color: rgb(5, 83, 179);
+}
+
+@media screen and (max-width: 920px) {
+    .footer{
+        height: 380px;
+    }
+    .reach-us-text, .reach-us-address, .reach-us-phone, .reach-us-fax, .reach-us-email, .footer-link, .footer-day, .our-info{
+        font-size: 13px;
+        
+    }
+    white{
+        
+    }
+    .reach-us-title, .website-title, .open-title{
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .reach-us-title, .website-title, .open-title{
+        margin-bottom: 24px;
+    }
 }

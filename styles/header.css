@@ -31,3 +31,13 @@
     white-space: nowrap;
 }
 
+@media (max-width: 650px){
+    .header{
+        flex-direction: column;
+    }
+    .left-section{
+        height: 64px;
+        width: 304px;
+        margin: auto;
+    }
+}
